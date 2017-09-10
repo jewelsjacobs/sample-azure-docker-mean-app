@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "compounds": [
+        {
+            "name": "Full-Stack",
+            "configurations": ["Node", "Chrome"]
+        }
+    ],
+    "configurations": [
+        {
+            "name": "Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:8080",
+            "port": 9222,
+            "userDataDir": "${workspaceRoot}/.vscode/chrome",
+            "webRoot": "${workspaceRoot}/public"
+        },
+        {
+            "name": "Node",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/server.js",
+            "cwd": "${workspaceRoot}"
+        }
+    ]
+}
