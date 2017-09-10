@@ -1,9 +1,8 @@
 {
-  "name": "node-todo",
+  "name": "sample-azure-docker-mean-app",
   "version": "0.0.1",
-  "description": "Simple todo application.",
+  "description": "Simple todo application running on Azure with a Docker container.",
   "main": "server.js",
-  "author": "Scotch",
   "dependencies": {
     "body-parser": "^1.4.3",
     "express": "^4.13.4",
